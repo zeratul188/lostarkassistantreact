@@ -1,0 +1,9 @@
+.update {
+    color: #FFFFFF;
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.update:hover {
+    cursor: pointer;
+}

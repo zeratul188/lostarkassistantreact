@@ -1,0 +1,54 @@
+.block-island {
+    width: 100%;
+    height: 130px;
+    text-align: left;
+    position: relative;
+}
+
+.island-content {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.island-info {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #AAAAAA;
+    font-size: 10pt;
+}
+
+.island-img {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.island-award img {
+    display: inline-block;
+}
+
+.award {
+    width: 40px;
+    height: 40px;
+}
+
+.island-time {
+    margin-left: 30px;
+    color: #AAAAAA;
+}
+
+.island-thrad-time {
+    color: #FF8888;
+}
+
+.island-time-info {
+    color: #AAAAAA;
+    float: right;
+}
+
+.island-name {
+    color: #FFCA45;
+}

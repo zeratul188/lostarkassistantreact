@@ -1,0 +1,139 @@
+body {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+    background-color: #262931;
+}
+
+.head-fix {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.head {
+    position: relative;
+    height: 40px;
+    padding: 15px;
+    background-color: #2d323f;
+    box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.head-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.head-content img:hover {
+    cursor: pointer;
+}
+
+.head-content * {
+    vertical-align: middle;
+}
+
+.title-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    margin-right: 20px;
+}
+
+.head-content img:nth-child(1) {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.head-content img:nth-child(2) {
+    height: 50px;
+    margin-left: -10px;
+}
+
+.title-buttons {
+    display: inline;
+}
+
+.title-buttons .title-button {
+    background-color: transparent !important;
+    border-color: transparent;
+    color: #FFFFFF;
+    font-size: 12pt;
+    margin-left: 80px;
+}
+
+.title-buttons .title-button:hover {
+    cursor: pointer;
+}
+
+section {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+div {
+    overflow: hidden;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1a1c22;
+}
+
+.footer-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 120px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-content {
+    float: left;
+    width: 800px;
+}
+
+.side-content {
+    float: right;
+    width: 300px;
+}
+
+.block-title {
+    background-color: #191b20;
+    padding: 15px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.block-content {
+    background-color: #1d2026;
+    text-align: left;
+}
+
+.add-padding {
+    padding: 15px;
+}
+
+.line-margin {
+    margin-top: 50px;
+}

@@ -1,0 +1,22 @@
+.update-buttons button {
+    background-color: transparent !important;
+    border-color: transparent;
+    color: white;
+    font-size: 20pt;
+}
+
+.update-buttons button:nth-child(1) {
+    color: #888888;
+}
+
+.update-buttons button:hover {
+    cursor: pointer;
+}
+
+.update-buttons {
+    text-align: center;
+}
+
+.update-buttons button, .update-buttons span {
+    vertical-align: middle;
+}

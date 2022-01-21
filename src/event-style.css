@@ -1,0 +1,27 @@
+.events-container {
+    width: 100%;
+    padding: 0;
+}
+
+.events-container div {
+    width: 33.3%;
+    display: inline-block;
+    padding: 0;
+}
+
+.events-container div:hover {
+    cursor: pointer;
+}
+
+.events-container div img {
+    width: 100%;
+}
+
+.events-container div p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 10pt;
+    color: white;
+}
