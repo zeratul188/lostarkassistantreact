@@ -2,11 +2,13 @@
 
 ## Firebase Hosting
 
-Server Upload : firebase deploy --only hosting
-Server Test : firebase serve --only hosting
+### 'firebase deploy --only hosting'
 
+Deploy for Firebase Hosting.
 
+### 'firebase serve --only hosting'
 
+Test for Firebase Hosting.
 
 # Getting Started with Create React App
 
