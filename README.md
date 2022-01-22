@@ -2,11 +2,11 @@
 
 ## Firebase Hosting
 
-### 'firebase deploy --only hosting'
+### `firebase deploy --only hosting`
 
 Deploy for Firebase Hosting.
 
-### 'firebase serve --only hosting'
+### `firebase serve --only hosting`
 
 Test for Firebase Hosting.
 
