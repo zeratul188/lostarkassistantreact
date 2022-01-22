@@ -1,3 +1,10 @@
+## Firebase Hosting
+Server Upload : firebase deploy --only hosting
+Server Test : firebase serve --only hosting
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
