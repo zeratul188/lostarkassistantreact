@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import UpdateBoard from './update-react';
 import './firebase-js';
 import './event-react';
+import './main-script';
 
 const domContainer = document.querySelector('#update-root');
 ReactDOM.render(
